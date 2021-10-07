@@ -1,4 +1,6 @@
 
+[![Build Status](https://dev.azure.com/aiframework/MyDataOps/_apis/build/status/lllfff.pipelines-java?branchName=master)](https://dev.azure.com/aiframework/MyDataOps/_build/latest?definitionId=1&branchName=master)
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
