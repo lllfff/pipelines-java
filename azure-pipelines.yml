@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo 'The build ID = $(Build.BuildId) for $(Build.BuildNumber)' # outputs customized build number
+- script: echo 'ProjectId=$(System.TeamProject), BuildID=$(Build.BuildId)' # outputs customized build number
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
